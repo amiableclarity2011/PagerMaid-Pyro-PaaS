@@ -12,4 +12,5 @@ COPY config.yml ./
 RUN sed -i "s#ID_HERE#$appid#g" config.yml && \
     sed -i "s#HASH_HERE#$apphash#g" config.yml;
 
+EXPOSE 80
 CMD ["python3", "-m", "pagermaid"]
