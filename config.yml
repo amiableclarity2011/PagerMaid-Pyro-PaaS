@@ -20,7 +20,7 @@ web_interface:
   enable: "True"
   secret_key: "Misakablog-PagerMaid"
   host: "0.0.0.0"
-  port: "80"
+  port: "2288"
 
 # Locale settings
 application_language: "zh-cn"
